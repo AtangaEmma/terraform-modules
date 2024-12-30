@@ -69,7 +69,7 @@ Create a new folder for the application code.
 
 · touch Dockerfile
 
-copy and paste into it the following: https://github.com/etaoko333/docker-project.git
+copy and paste into it the following: https://github.com/AtangaEmma/docker-project.git
 
 We will use a LAMP stack to build this application. A lamp stack is a group of open-source software that we can use to build a dynamic web application:
 
