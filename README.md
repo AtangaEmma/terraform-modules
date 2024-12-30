@@ -306,3 +306,12 @@ Final outcome
 <img width="960" alt="22024-11-26 (24) 024-11-26 (9)" src="https://github.com/user-attachments/assets/27704d82-ff8a-4004-8058-b6dfdd2e48c5">
 
 2024-11-26 (13) 2024-11-26 (19)
+
+![image](https://github.com/user-attachments/assets/82b3dc73-3f79-43ba-ae38-e432b7863bb1)
+
+![image](https://github.com/user-attachments/assets/85fabad3-fc16-41b8-a89c-3f25c7194cee)
+
+![image](https://github.com/user-attachments/assets/b5cf256e-d4ab-49cf-b5c5-192ba5b1c12c)
+
+
+
