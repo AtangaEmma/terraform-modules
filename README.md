@@ -5,7 +5,7 @@ I am so happy to share my latest project i recently deployed a Dynamic Rental Ca
 
 This project stands out for its use of a wide array of AWS services, ensuring high availability, scalability, and security. It demonstrates the ability to architect and deploy complex infrastructure with modern DevOps practices.
 
-Create a new repository on GitHub. I’ve named mine: terraform module and clone it into your computer use both this link to deploy the application this is the step that i followed project terraform modules: https://github.com/etaoko333/terraform-modules-2.git
+Create a new repository on GitHub. I’ve named mine: terraform module and clone it into your computer use both this link to deploy the application this is the step that i followed project terraform modules: https://github.com/AtangaEmma/terraform-modules.git
 
 project file: https://github.com/etaoko333/rentzone-infrastructure-ecs-2.git
 
