@@ -1,17 +1,16 @@
-# Get hosted zone details
-data "aws_route53_zone" "hosted_zone" {
-  name = var.domain_name # Make sure this matches exactly
+# create an s3 bucket 
+resource "aws_s3_bucket" "env_file_bucket" {
+  bucket = "${var.project_name}-${var.env_file_bucket_name}"
+
+  lifecycle {
+    create_before_destroy = false
+  }
+
 }
 
-# Create a record set in Route 53
-resource "aws_route53_record" "site_domain" {
-  zone_id = data.aws_route53_zone.hosted_zone.zone_id
-  name    = var.record_name # Specify the subdomain or root domain
-  type    = "A"
-
-  alias {
-    name                   = var.application_load_balancer_dns_name
-    zone_id                = var.application_load_balancer_zone_id
-    evaluate_target_health = true
-  }
+# upload the environment file from local computer into the s3 bucket
+resource "aws_s3_object" "upload_env_file" {
+  bucket = aws_s3_bucket.env_file_bucket.id
+  key    = var.env_file_name
+  source = "./${var.env_file_name}"
 }
