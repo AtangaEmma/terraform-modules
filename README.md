@@ -7,7 +7,7 @@ This project stands out for its use of a wide array of AWS services, ensuring hi
 
 Create a new repository on GitHub. I’ve named mine: terraform module and clone it into your computer use both this link to deploy the application this is the step that i followed project terraform modules: https://github.com/AtangaEmma/terraform-modules.git
 
-project file: https://github.com/etaoko333/rentzone-infrastructure-ecs-2.git
+project file: https://github.com/AtangaEmma/rentzone-infrastructure-ecs.git
 
 Create the remote backend Open the location of the repository in VS Code
 
@@ -45,7 +45,7 @@ Create a private repository to store the application codes Go to GitHub and crea
 
 I’ve named mine “application-codes”
 
-Download the required file from this link: https://github.com/etaoko333/application-code.git Add it to the repository folder in your local machine
+Download the required file from this link: https://github.com/AtangaEmma/application-code.git Add it to the repository folder in your local machine
 
 Open the repository “application-codes” on VS code
 
